@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		E041297826A90BE800F0905D /* ImageCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = E041297726A90BE800F0905D /* ImageCollectionViewCell.swift */; };
+		E041297C26A90C3400F0905D /* ImageCollectionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E041297B26A90C3400F0905D /* ImageCollectionViewController.swift */; };
 		E094352A26A8C3780091672C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E094352926A8C3780091672C /* AppDelegate.swift */; };
 		E094352C26A8C3780091672C /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E094352B26A8C3780091672C /* SceneDelegate.swift */; };
 		E094352E26A8C3780091672C /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E094352D26A8C3780091672C /* ViewController.swift */; };
@@ -14,9 +16,14 @@
 		E094353426A8C3780091672C /* cameraApp.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = E094353226A8C3780091672C /* cameraApp.xcdatamodeld */; };
 		E094353626A8C37A0091672C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E094353526A8C37A0091672C /* Assets.xcassets */; };
 		E094353926A8C37A0091672C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E094353726A8C37A0091672C /* LaunchScreen.storyboard */; };
+		E094356426A8EB8E0091672C /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E094356326A8EB8E0091672C /* HomeViewController.swift */; };
+		E094356626A8EDAB0091672C /* ProductViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E094356526A8EDAB0091672C /* ProductViewController.swift */; };
+		E094356826A8EDC40091672C /* SignPledgeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E094356726A8EDC40091672C /* SignPledgeViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		E041297726A90BE800F0905D /* ImageCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageCollectionViewCell.swift; sourceTree = "<group>"; };
+		E041297B26A90C3400F0905D /* ImageCollectionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageCollectionViewController.swift; sourceTree = "<group>"; };
 		E094352626A8C3780091672C /* cameraApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = cameraApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E094352926A8C3780091672C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		E094352B26A8C3780091672C /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -26,6 +33,9 @@
 		E094353526A8C37A0091672C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		E094353826A8C37A0091672C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		E094353A26A8C37A0091672C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E094356326A8EB8E0091672C /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		E094356526A8EDAB0091672C /* ProductViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductViewController.swift; sourceTree = "<group>"; };
+		E094356726A8EDC40091672C /* SignPledgeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignPledgeViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -62,6 +72,11 @@
 				E094352B26A8C3780091672C /* SceneDelegate.swift */,
 				E094352D26A8C3780091672C /* ViewController.swift */,
 				E094352F26A8C3780091672C /* Main.storyboard */,
+				E041297B26A90C3400F0905D /* ImageCollectionViewController.swift */,
+				E041297726A90BE800F0905D /* ImageCollectionViewCell.swift */,
+				E094356726A8EDC40091672C /* SignPledgeViewController.swift */,
+				E094356526A8EDAB0091672C /* ProductViewController.swift */,
+				E094356326A8EB8E0091672C /* HomeViewController.swift */,
 				E094353526A8C37A0091672C /* Assets.xcassets */,
 				E094353726A8C37A0091672C /* LaunchScreen.storyboard */,
 				E094353A26A8C37A0091672C /* Info.plist */,
@@ -140,8 +155,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E094356626A8EDAB0091672C /* ProductViewController.swift in Sources */,
+				E094356426A8EB8E0091672C /* HomeViewController.swift in Sources */,
+				E041297826A90BE800F0905D /* ImageCollectionViewCell.swift in Sources */,
 				E094353426A8C3780091672C /* cameraApp.xcdatamodeld in Sources */,
+				E094356826A8EDC40091672C /* SignPledgeViewController.swift in Sources */,
 				E094352E26A8C3780091672C /* ViewController.swift in Sources */,
+				E041297C26A90C3400F0905D /* ImageCollectionViewController.swift in Sources */,
 				E094352A26A8C3780091672C /* AppDelegate.swift in Sources */,
 				E094352C26A8C3780091672C /* SceneDelegate.swift in Sources */,
 			);
