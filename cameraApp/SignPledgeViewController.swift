@@ -7,8 +7,9 @@
 
 import UIKit
 
-class SignPledgeViewController: UIViewController {
+class SignPledgeViewController: UIViewController, UITextFieldDelegate {
 
+    
     
     @IBOutlet weak var submitImage: UIImageView!
     @IBOutlet weak var label1: UILabel!
@@ -17,14 +18,20 @@ class SignPledgeViewController: UIViewController {
         if let newPledge = textField1.text{
             label1.text = "I, \(newPledge), promise to always prioritize my skin. By using Esteé Lauder's Double Wear Stay-in-Place Foundation, I can let my skin shine!"
             label1.textColor = UIColor.green
-            submitImage.image = UIImage(named: "Neha Shukla Profile Pic")
+            submitImage.image = UIImage(named: "Pledge Image 2")
         }
     }
     
    override func viewDidLoad() {
         super.viewDidLoad()
+        textField1.delegate = self
 
         // Do any additional setup after loading the view.
+    }
+    
+    func textFieldShouldReturn(_ textField: UITextField) -> Bool {
+        textField1.resignFirstResponder()
+        return true
     }
     
 
