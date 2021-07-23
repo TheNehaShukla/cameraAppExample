@@ -20,6 +20,8 @@
 		E0540FA026AA1A02004131AA /* Q7ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0540F9F26AA1A02004131AA /* Q7ViewController.swift */; };
 		E0540FA226AA1A19004131AA /* Q8ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0540FA126AA1A19004131AA /* Q8ViewController.swift */; };
 		E05F184F26AA2AC000BE1227 /* EmbedModelViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E05F184E26AA2AC000BE1227 /* EmbedModelViewController.swift */; };
+		E085CCEC26AA7A0A00CCD5EE /* learnMoreViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E085CCEB26AA7A0A00CCD5EE /* learnMoreViewController.swift */; };
+		E085CCEE26AA7F1B00CCD5EE /* KWKViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E085CCED26AA7F1B00CCD5EE /* KWKViewController.swift */; };
 		E094352A26A8C3780091672C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E094352926A8C3780091672C /* AppDelegate.swift */; };
 		E094352C26A8C3780091672C /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E094352B26A8C3780091672C /* SceneDelegate.swift */; };
 		E094352E26A8C3780091672C /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E094352D26A8C3780091672C /* ViewController.swift */; };
@@ -46,6 +48,8 @@
 		E0540F9F26AA1A02004131AA /* Q7ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Q7ViewController.swift; sourceTree = "<group>"; };
 		E0540FA126AA1A19004131AA /* Q8ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Q8ViewController.swift; sourceTree = "<group>"; };
 		E05F184E26AA2AC000BE1227 /* EmbedModelViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmbedModelViewController.swift; sourceTree = "<group>"; };
+		E085CCEB26AA7A0A00CCD5EE /* learnMoreViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = learnMoreViewController.swift; sourceTree = "<group>"; };
+		E085CCED26AA7F1B00CCD5EE /* KWKViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KWKViewController.swift; sourceTree = "<group>"; };
 		E094352626A8C3780091672C /* cameraApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = cameraApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E094352926A8C3780091672C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		E094352B26A8C3780091672C /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -90,6 +94,8 @@
 		E094352826A8C3780091672C /* cameraApp */ = {
 			isa = PBXGroup;
 			children = (
+				E085CCED26AA7F1B00CCD5EE /* KWKViewController.swift */,
+				E085CCEB26AA7A0A00CCD5EE /* learnMoreViewController.swift */,
 				E094352926A8C3780091672C /* AppDelegate.swift */,
 				E094352B26A8C3780091672C /* SceneDelegate.swift */,
 				E094352D26A8C3780091672C /* ViewController.swift */,
@@ -194,10 +200,12 @@
 				E094356826A8EDC40091672C /* SignPledgeViewController.swift in Sources */,
 				E0540F9226AA1482004131AA /* ProductQuizViewController.swift in Sources */,
 				E094352E26A8C3780091672C /* ViewController.swift in Sources */,
+				E085CCEE26AA7F1B00CCD5EE /* KWKViewController.swift in Sources */,
 				E0540F9C26AA197F004131AA /* Q5ViewController.swift in Sources */,
 				E0540F9E26AA19CA004131AA /* Q6ViewController.swift in Sources */,
 				E0540F9426AA18DE004131AA /* Q1ViewController.swift in Sources */,
 				E0540FA226AA1A19004131AA /* Q8ViewController.swift in Sources */,
+				E085CCEC26AA7A0A00CCD5EE /* learnMoreViewController.swift in Sources */,
 				E05F184F26AA2AC000BE1227 /* EmbedModelViewController.swift in Sources */,
 				E094352A26A8C3780091672C /* AppDelegate.swift in Sources */,
 				E0540FA026AA1A02004131AA /* Q7ViewController.swift in Sources */,

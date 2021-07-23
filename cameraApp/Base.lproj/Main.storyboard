@@ -124,17 +124,18 @@
                         <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Page with image background, and overview of the app." textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="C1J-NK-bTy">
-                                <rect key="frame" x="79" y="143" width="257" height="78"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                <nil key="textColor"/>
-                                <nil key="highlightedColor"/>
-                            </label>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="4Pe-Zp-3NR">
-                                <rect key="frame" x="0.0" y="44" width="414" height="643"/>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" fixedFrame="YES" image="Estee Lauder App Designs 11" translatesAutoresizingMaskIntoConstraints="NO" id="u4G-zQ-b7p">
+                                <rect key="frame" x="-12" y="13" width="414" height="643"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="10" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="C1J-NK-bTy">
+                                <rect key="frame" x="37" y="406" width="316" height="172"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <string key="text">Welcome to the Esteé Lauder Double Wear Stay-in-Place Foundation App! Through this app, you can learn more about the Double Wear Stay-in-Place foundation, build a community of strong and beautiful women across the world, get inspired on how to use the product, and ultimately make it your own!</string>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <nil key="highlightedColor"/>
+                            </label>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="nVb-N8-5NT"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
@@ -211,30 +212,53 @@
             </objects>
             <point key="canvasLocation" x="1498.5507246376812" y="-4.0760869565217392"/>
         </scene>
-        <!--Information-->
+        <!--Kode with Klossy x Esteé Lauder-->
         <scene sceneID="P0L-o4-wrb">
             <objects>
-                <viewController id="oTy-IK-Gfe" sceneMemberID="viewController">
+                <viewController id="oTy-IK-Gfe" customClass="KWKViewController" customModule="cameraApp" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="pCe-cO-3ir">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Kode with Klossy x Esteé Lauder" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="681-60-7Vu">
-                                <rect key="frame" x="84" y="101" width="246" height="21"/>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" fixedFrame="YES" image="Estee Lauder App Designs 9" translatesAutoresizingMaskIntoConstraints="NO" id="rsX-tG-7rp">
+                                <rect key="frame" x="-20" y="-36" width="414" height="643"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="App created by Neha Shukla, 2021." textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="4fQ-6U-8CD">
+                                <rect key="frame" x="12" y="567" width="350" height="33"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                <nil key="textColor"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <nil key="highlightedColor"/>
                             </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" lineBreakMode="tailTruncation" numberOfLines="7" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="n6c-Nx-6GO">
+                                <rect key="frame" x="24" y="293" width="350" height="160"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <string key="text">Esteé Lauder partnered with Karlie Kloss' "Kode with Klossy "to inspire the next generation of young female coders to get involved with their communities. Kode with Klossy scholars built apps to promote Esteé Lauder's latest Double Wear Stay-in-Place Foundation.</string>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="55I-uA-E3L">
+                                <rect key="frame" x="31" y="493" width="312" height="22"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="tintColor" systemColor="linkColor"/>
+                                <state key="normal" title=" Learn More About Kode with Klossy" image="link" catalog="system">
+                                    <color key="titleColor" name="AccentColor"/>
+                                </state>
+                                <connections>
+                                    <action selector="learnMoreButton:" destination="oTy-IK-Gfe" eventType="touchUpInside" id="9zV-IF-6X4"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="PZW-a1-03l"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                     </view>
-                    <navigationItem key="navigationItem" title="Information" id="07Z-7l-MnS"/>
+                    <navigationItem key="navigationItem" title="Kode with Klossy x Esteé Lauder" id="07Z-7l-MnS"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="4sL-kb-jyD" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="2313" y="-4"/>
+            <point key="canvasLocation" x="2311.594202898551" y="-4.0760869565217392"/>
         </scene>
         <!--3D Model of Esteé Lauder Night Cream-->
         <scene sceneID="iNw-Lw-sTP">
@@ -881,7 +905,7 @@
                                 <rect key="frame" x="79" y="363" width="241" height="132"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                <nil key="textColor"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="yzd-xC-dk1">
@@ -910,16 +934,38 @@
         <!--Learn More-->
         <scene sceneID="95u-Ed-rSv">
             <objects>
-                <viewController id="wej-YW-6oC" sceneMemberID="viewController">
+                <viewController id="wej-YW-6oC" customClass="learnMoreViewController" customModule="cameraApp" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="p4o-Wv-Rs0">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Click the button to learn more about Esteé Lauder's new Double Wear Stay-in-Place Foundation!" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="3" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="C5V-HB-c1E">
-                                <rect key="frame" x="44" y="161" width="305" height="165"/>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" fixedFrame="YES" image="Estee Lauder App Designs 8" translatesAutoresizingMaskIntoConstraints="NO" id="KXg-g3-5G2">
+                                <rect key="frame" x="-15" y="21" width="414" height="643"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="J4I-tv-je0">
+                                <rect key="frame" x="130" y="457" width="125" height="22"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="tintColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <state key="normal" title="Learn More!" image="bubble.left.and.bubble.right" catalog="system">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                </state>
+                                <connections>
+                                    <action selector="button1:" destination="wej-YW-6oC" eventType="touchUpInside" id="Bdz-mX-TE6"/>
+                                </connections>
+                            </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="_______________________" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="3" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="gfo-3C-Rem">
+                                <rect key="frame" x="40" y="499" width="305" height="122"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                <nil key="textColor"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Click the button to learn more about Esteé Lauder's new Double Wear Stay-in-Place Foundation!" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="3" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="C5V-HB-c1E">
+                                <rect key="frame" x="40" y="324" width="305" height="125"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <nil key="highlightedColor"/>
                             </label>
                         </subviews>
@@ -927,10 +973,13 @@
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                     </view>
                     <navigationItem key="navigationItem" title="Learn More" id="fIJ-Hg-BgY"/>
+                    <connections>
+                        <outlet property="resultLabel" destination="gfo-3C-Rem" id="rNX-dg-PrA"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="tue-3L-yaX" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="2449" y="792"/>
+            <point key="canvasLocation" x="2447.826086956522" y="790.76086956521749"/>
         </scene>
         <!--Selfie Booth-->
         <scene sceneID="tne-QT-ifu">
@@ -1463,17 +1512,22 @@
         <image name="8Deepest" width="474" height="300"/>
         <image name="8Deepest0" width="474" height="300"/>
         <image name="COOL UNDERTONE" width="474" height="300"/>
+        <image name="Estee Lauder App Designs 11" width="414" height="643"/>
         <image name="Estee Lauder App Designs 6" width="414" height="643"/>
         <image name="Estee Lauder App Designs 7" width="414" height="643"/>
+        <image name="Estee Lauder App Designs 8" width="414" height="643"/>
+        <image name="Estee Lauder App Designs 9" width="414" height="643"/>
         <image name="Estee Lauder App Designs. 4" width="414" height="643"/>
         <image name="NEUTRAL UNDERTONE" width="474" height="300"/>
         <image name="WARM UNDERTONE" width="474" height="300"/>
+        <image name="bubble.left.and.bubble.right" catalog="system" width="128" height="96"/>
         <image name="camera" catalog="system" width="128" height="94"/>
         <image name="camera.viewfinder" catalog="system" width="128" height="115"/>
         <image name="checkmark" catalog="system" width="128" height="114"/>
         <image name="homekit" catalog="system" width="128" height="106"/>
         <image name="info.circle" catalog="system" width="128" height="121"/>
         <image name="lightbulb.fill" catalog="system" width="113" height="128"/>
+        <image name="link" catalog="system" width="128" height="122"/>
         <image name="new camera" width="200" height="200"/>
         <image name="photo.on.rectangle" catalog="system" width="128" height="96"/>
         <image name="shippingbox.fill" catalog="system" width="128" height="124"/>
