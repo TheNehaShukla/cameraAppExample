@@ -37,5 +37,9 @@ class ViewController: UIViewController, UIImagePickerControllerDelegate, UINavig
         }
     }
     
+    @IBAction func buyButton(_ sender: Any) {
+        if let url = URL(string: "https://www.esteelauder.com/product/643/22830/product-catalog/makeup/face/foundation/double-wear/stay-in-place-foundation?shade=0N1_Alabaster") {
+                    UIApplication.shared.open(url, options: [:], completionHandler: nil)
+    }
 }
-
+}
